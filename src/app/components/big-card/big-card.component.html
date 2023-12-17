@@ -1,18 +1,17 @@
 <div class="container__big-card">
   <div class="big-card__photo">
-    <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/MSNBC/Components/Photo/_new/100506-ironman2-hmed.jpg"
+    <img src="{{ photoCover }}"
          alt=""
          height="200px"
          srcset="">
   </div>
   <div class="big-card__title">
-    <h1><a href="#">Saiu a nova versâo do Angular</a></h1>
+    <h1><a href="#">{{ cardTitle }}</a></h1>
   </div>
   <div class="big-card__description">
     <p>
       <a href="#">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consequat semper justo, et pulvinar mauris
-        luctus sed. Sed a nulla venenatis, sagittis lectus in, mattis nulla.
+        {{ cardDescription }}
       </a>
     </p>
   </div>
